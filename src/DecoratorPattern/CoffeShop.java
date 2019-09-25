@@ -17,6 +17,7 @@ public class CoffeShop {
 		
 		//add decorators
 		houseBlend = new Soy(houseBlend);
+		houseBlend = new Soy(houseBlend);
 		houseBlend = new Mocha(houseBlend);
 		houseBlend = new Whip(houseBlend);
 		
